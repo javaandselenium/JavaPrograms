@@ -15,7 +15,8 @@ public class Demo1 {
 //		System.out.println("My companyname is "+companyName);
 		
 System.out.println("My name is "+name+" "+DOB+" "+salary+" "+empID+" "+companyName);		
-		
+System.out.println(name);
+System.out.println(name);
 	}
 
 }
