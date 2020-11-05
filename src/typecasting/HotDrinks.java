@@ -14,7 +14,8 @@ public class HotDrinks extends CoolDrinks{
 	public static void main(String[] args) {
 		//upcasting
 		CoolDrinks c=new HotDrinks();
-		
+		c.coldwater();
+		c.juice();
 		
 		//downcasting
 		HotDrinks d=(HotDrinks)c;
