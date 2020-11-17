@@ -6,5 +6,5 @@ public interface Test0 {
 	 void calls();
 	 void chats();
 	 void photo();
-	
+	void demo();
 }

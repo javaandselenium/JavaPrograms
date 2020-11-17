@@ -2,7 +2,7 @@ package interfaceprograms;
 
 public class Child implements Parent1,Parent2{
 	
-	public void cycle()
+	public static void cycle()
 	{
 		System.out.println("cycle");
 	}
@@ -18,11 +18,13 @@ public class Child implements Parent1,Parent2{
 		System.out.println("home from parent 2");
 		
 	}
+	
+	
 	public static void main(String[] args) {
 		Child c=new Child();
 		c.car();
 		c.home();
-		c.cycle();
+		Child.cycle();
 	}
 
 }
